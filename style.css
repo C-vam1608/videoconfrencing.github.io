@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+}
+.header{
+ width: 100%;
+ height: 110vh;
+ background:rgb(7 8 69 / 96%);
+ position: relative;
+
+}
+.no{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    background: rgb(27 16 140);
+    width: 120px;
+    padding: 10px ;
+}
+.no .logo{
+    width: 56px;
+    display: block;
+    margin: auto;
+    cursor: pointer;
+    border-radius: 40px;
+}
+.no ul{
+    margin-top: 160px;
+
+}
+.no ul li{
+    list-style: none;
+}
+.no ul li img{
+    width: 50px;
+    display: block;
+    margin: 10px auto ;
+    padding: 10px;
+    cursor: pointer;
+    opacity: 0.5;
+    border-radius: 10px;
+    transition: opacity 0.5s, background 0.5s;
+}
+.no ul li img:hover{
+    opacity: 1;
+    background: #4d6181;
+}
+.active{
+    opacity: 1;
+    background: #4d6181;
+}
+.container{
+    margin-left: 120px;
+    padding: 0 2.5%;
+}
+.top-icons{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 25px 0;
+}
+.top-icons img{
+    width:48px ;
+    margin-left: 8px;
+    cursor: pointer;
+}
+.row{
+   margin-top: 15px; 
+   display: flex;
+   justify-content: space-between;
+
+}
+.col-1{
+    flex-basis: 65%;
+}
+.col-2{
+    flex-basis: 33%;
+}
+.host-img{
+    width: 100%;
+    border-radius: 15px;
+
+}
+.contarols{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contarols img{
+    width: 40px;
+    margin: 20px 10px;
+    cursor: pointer;
+    transition: transform 0.5s;
+    border-radius: 40px;
+
+}
+.contarols .call-icon{
+    width: 70px;
+
+}
+.contarols img:hover{
+    transform: translateY(-10px) ;
+}
+.joined{
+   background:#231f60; 
+   border-radius: 15px;
+   padding: 30px 40px 93px ;
+   color: #dddde6;
+}
+.col-2 img{
+    width: 120px;
+    height: 120px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-left: 5px;
+
+}
+.joined div{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    
+}
+.invite img{
+    margin-top: 20px;
+    margin-left: 5px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    cursor: pointer;
+
+}
+.invite{
+    background:#231f60; 
+    border-radius: 15px;
+    padding: 30px 40px 93px ;
+    color:#dddde6;
+    margin-top: 20px;
+
+}
